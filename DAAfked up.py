@@ -93,7 +93,7 @@ print(grouped_by_test)
 ax= grouped_by_test.plot(kind='bar',title='visitors per year',figsize=(6,6),legend=True,fontsize=12,style=dict )
 plt.show()
 
-grouped_by_test.plot()
+
 
 
 #import unittest
