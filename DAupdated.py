@@ -27,8 +27,6 @@ print(df.isna().sum())
 
 fig = px.line(df, x=df.index, y=df.columns)
 fig.show()
-# Total travellers from each country in given 10 years
-df.sum(axis=0).sort_values(ascending= False)
 # Top 3 countries in given 10 years
 df.sum(axis=0).sort_values(ascending= False)[:3]
 
